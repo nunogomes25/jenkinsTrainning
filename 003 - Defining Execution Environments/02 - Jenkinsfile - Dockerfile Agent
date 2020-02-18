@@ -1,5 +1,11 @@
 pipeline {
-    agent { 
+    agent {
+        dockerfile {
+            dir '003 - Defining Execution Environments'
+            filename '02 - Dockerfile - Dockerfile Agent'
+            additionalBuildArgs '--build-arg "ENV_VARIABLE=Value for build"'
+            args '-e "ENV_VARIABLE=Value for execution"'
+        }
 	}
     stages {
         stage('build') {

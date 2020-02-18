@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1278aa0d-d123-4067-94f2-992c22f32584" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/04 - Jenkinsfile - Conditional Stages" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/04 - Jenkinsfile - Conditional Stages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/05 - Jenkinsfile - Finish Up" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/05 - Jenkinsfile - Finish Up" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003 - Defining Execution Environments/01 - Jenkinsfile - Install Software" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Defining Execution Environments/01 - Jenkinsfile - Install Software" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003 - Defining Execution Environments/02 - Jenkinsfile - Dockerfile Agent" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Defining Execution Environments/02 - Jenkinsfile - Dockerfile Agent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003 - Defining Execution Environments/03 - Dockerfile - Install Software Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Defining Execution Environments/03 - Dockerfile - Install Software Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003 - Defining Execution Environments/03 - Jenkinsfile - Install Software Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Defining Execution Environments/03 - Jenkinsfile - Install Software Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004 - Using Environment Variables/01 - Jenkinsfile - Configuration Variable" beforeDir="false" afterPath="$PROJECT_DIR$/004 - Using Environment Variables/01 - Jenkinsfile - Configuration Variable" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,58 +14,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001 - Creating Pipelines/01 - Jenkinsfile - First Pipeline">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001 - Creating Pipelines/02 - Jenkinsfile - Java Pipeline">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="29" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages">
+        <entry file="file://$PROJECT_DIR$/004 - Using Environment Variables/04 - Jenkinsfile - Change Variable Value">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/04 - Jenkinsfile - Conditional Stages">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -87,6 +46,11 @@
         <option value="$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents" />
         <option value="$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages" />
         <option value="$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages" />
+        <option value="$PROJECT_DIR$/003 - Defining Execution Environments/01 - Jenkinsfile - Install Software" />
+        <option value="$PROJECT_DIR$/003 - Defining Execution Environments/02 - Jenkinsfile - Dockerfile Agent" />
+        <option value="$PROJECT_DIR$/003 - Defining Execution Environments/03 - Dockerfile - Install Software Dockerfile" />
+        <option value="$PROJECT_DIR$/003 - Defining Execution Environments/03 - Jenkinsfile - Install Software Dockerfile" />
+        <option value="$PROJECT_DIR$/004 - Using Environment Variables/01 - Jenkinsfile - Configuration Variable" />
       </list>
     </option>
   </component>
@@ -113,12 +77,12 @@
             <path>
               <item name="training-playground" type="b2602c69:ProjectViewProjectNode" />
               <item name="training-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="001 - Creating Pipelines" type="462c0819:PsiDirectoryNode" />
+              <item name="003 - Defining Execution Environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="training-playground" type="b2602c69:ProjectViewProjectNode" />
               <item name="training-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="002 - Running Multiple Steps" type="462c0819:PsiDirectoryNode" />
+              <item name="004 - Using Environment Variables" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,13 +161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/01 - Jenkinsfile - Multiple Actions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/02 - Jenkinsfile - Multiple Stages">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -239,10 +196,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents">
+    <entry file="file://$PROJECT_DIR$/003 - Defining Execution Environments/02 - Jenkinsfile - Dockerfile Agent">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003 - Defining Execution Environments/03 - Jenkinsfile - Install Software Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003 - Defining Execution Environments/03 - Dockerfile - Install Software Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003 - Defining Execution Environments/02 - Dockerfile - Dockerfile Agent">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003 - Defining Execution Environments/01 - Jenkinsfile - Install Software">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001 - Creating Pipelines/03 - Jenkinsfile - Node Pipeline">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/01 - Jenkinsfile - Multiple Actions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -253,10 +251,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages">
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004 - Using Environment Variables/02 - Jenkinsfile - JSON Configuration">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004 - Using Environment Variables/01 - Jenkinsfile - Configuration Variable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004 - Using Environment Variables/04 - Jenkinsfile - Change Variable Value">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
