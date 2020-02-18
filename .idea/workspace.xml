@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1278aa0d-d123-4067-94f2-992c22f32584" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/01 - Jenkinsfile - Multiple Actions" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/01 - Jenkinsfile - Multiple Actions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/02 - Jenkinsfile - Multiple Stages" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/02 - Jenkinsfile - Multiple Stages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/03 - Jenkinsfile - Pipeline with Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/03 - Jenkinsfile - Pipeline with Inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/04 - Jenkinsfile - Conditional Stages" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/04 - Jenkinsfile - Conditional Stages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/05 - Jenkinsfile - Finish Up" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/05 - Jenkinsfile - Finish Up" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +34,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/03 - Jenkinsfile - Pipeline with Inputs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state>
+              <caret selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/02 - Jenkinsfile - Multiple Stages">
+        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/04 - Jenkinsfile - Conditional Stages">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="187">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -62,6 +82,11 @@
         <option value="$PROJECT_DIR$/002 - Running Multiple Steps/01 - Jenkinsfile - Multiple Actions" />
         <option value="$PROJECT_DIR$/002 - Running Multiple Steps/02 - Jenkinsfile - Multiple Stages" />
         <option value="$PROJECT_DIR$/002 - Running Multiple Steps/03 - Jenkinsfile - Pipeline with Inputs" />
+        <option value="$PROJECT_DIR$/002 - Running Multiple Steps/05 - Jenkinsfile - Finish Up" />
+        <option value="$PROJECT_DIR$/002 - Running Multiple Steps/04 - Jenkinsfile - Conditional Stages" />
+        <option value="$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents" />
+        <option value="$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages" />
+        <option value="$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages" />
       </list>
     </option>
   </component>
@@ -172,6 +197,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/01 - Jenkinsfile - Multiple Actions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/02 - Jenkinsfile - Multiple Stages">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -179,10 +211,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/01 - Jenkinsfile - Multiple Actions">
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/04 - Jenkinsfile - Conditional Stages">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/05 - Jenkinsfile - Finish Up">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/03 - Jenkinsfile - Pipeline with Inputs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -193,10 +239,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/03 - Jenkinsfile - Pipeline with Inputs">
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/06 - Jenkinsfile - Multiple Agents">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state>
+          <caret selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/07 - Jenkinsfile - Parallel Stages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 - Running Multiple Steps/08 - Jenkinsfile - Nested Stages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

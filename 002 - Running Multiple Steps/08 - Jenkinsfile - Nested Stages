@@ -1,9 +1,31 @@
 pipeline {
-    agent { 
-		docker { 
-			image 'alpine:latest' 
-		}
-	}
+    agent none
     stages {
+        stage('build') {
+            parallel {
+                 stages {
+                    stage('build java') {
+                        agent {
+                            docker {
+                                image 'maven:3.3.3'
+                            }
+                        }
+                        steps {
+                            sh 'mvn --version'
+                        }
+                    }
+                    stage('build node') {
+                        agent {
+                            docker {
+                                image 'node:6.3'
+                            }
+                        }
+                        steps {
+                            sh 'npm --version'
+                        }
+                    }
+                 }
+            }
+        }
     }
 }
