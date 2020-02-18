@@ -1,7 +1,11 @@
 pipeline {
-    agent { docker { image 'maven:3.3.3' } }
+    agent { 
+		docker { 
+			image 'alpine:latests' 
+		} 
+	}
     stages {
-        stage('01 - Jenkinsfile - First Pipeline') {
+        stage('build') {
             steps {
                 sh 'mvn --version'
             }
